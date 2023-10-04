@@ -1,0 +1,36 @@
+#btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  height: 8%;
+  background-color: $bg-primary;
+  position: absolute;
+  bottom: 0;
+  button {
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      user-select: none;
+      background-color: $bg-secondary;
+      color: $text-primary-light;
+    }
+    padding: 2px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: $bg-primary-light;
+    margin: 0px 5px;
+    &:nth-of-type(1) {
+      &:hover {
+        cursor: pointer;
+        user-select: none;
+        background-color: $bg-secondary;
+        color: $text-primary-light;
+      }
+      background-color: $bg-primary;
+      color: $text-primary-light;
+      border: 0.5px solid $bg-secondary;
+    }
+  }
+}
