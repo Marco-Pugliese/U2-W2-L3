@@ -23,10 +23,10 @@
       button {
         transition: all 0.5s ease-in-out;
         background-color: $bg-primary;
+        color: $text-primary-light;
         padding: 6px 20px;
         border-radius: 10px;
         border: none;
-        color: $text-primary-light;
         &:hover {
           cursor: pointer;
           user-select: none;
