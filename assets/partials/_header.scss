@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Dosis:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap");
+
+body {
+  //   font-family: "Catamaran", sans-serif;
+  //   font-family: "Dosis", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  width: 100%;
+  background-color: $bg-primary-light;
+  #header-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+  }
+  nav {
+    margin-right: 50px;
+    ul {
+      li {
+        font-size: 1.2em;
+        transition: 0.4s all ease-in-out;
+        padding: 2px 25px;
+        border: none;
+        color: $text-primary-light;
+        margin: 0px 5px;
+        border-radius: 20px;
+        &:hover {
+          color: $bg-primary;
+          cursor: pointer;
+          user-select: none;
+        }
+      }
+      margin-right: 50px;
+      display: flex;
+      justify-content: space-around;
+      height: 100%;
+      align-items: center;
+    }
+  }
+}
